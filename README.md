@@ -30,7 +30,7 @@ This interactive map was built using JavaScript with the `D3.js` library. The im
 
 - Customizable color interpolators for user-defined styles
 
-All code is written in JavaScript and can be directly edited within an Observable notebook, or adapted for any HTML-based environment.
+  > All code is written in JavaScript and can be directly edited within an Observable notebook, or adapted for any HTML-based environment.
 
 ---
 
@@ -59,10 +59,10 @@ Use the provided R script to:
 - Open the sheet named Sheet6.
 
 - Copy and paste the columns CountryCode and Freq from the R-exported file into columns 1 and 2 of Sheet6.
-
- > Do not modify: 
- >  - The red-coded third column in Sheet1
- >  - Any sheet name
+  
+   > Do not modify: 
+   >  - The red-coded third column in Sheet1
+   >  - Any sheet name
 
 ##### Step 3. Replace the file in Observable
    
@@ -70,7 +70,7 @@ Use the provided R script to:
 
 - Run the notebook to regenerate the map with updated data.
 
-> This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
+  > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
 
 ---
 
@@ -129,7 +129,7 @@ const colorInterpolators = {
 ```
 Feel free to experiment with these combinations and adjust the domain based on your data range.
 
-> These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
+  > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 
 ---
 
