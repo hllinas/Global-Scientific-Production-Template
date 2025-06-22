@@ -36,9 +36,8 @@ All code is written in JavaScript and can be directly edited within an Observabl
 
 If you want to update the map with a new frequency dataset (e.g., number of publications, citations, or any other metric), follow these steps:
 
----
 
-#### 1. Process data in R
+##### Step 1. Process data in R
 
 Use the provided R script to:
 
@@ -50,9 +49,8 @@ Use the provided R script to:
 
 > The full script is available here: update_country_data.R
 
----
 
-#### 2. Update the Observable Excel file
+##### Step 2. Update the Observable Excel file
 
 - Download the `Data_obs.xls` file currently used in your Observable notebook.
 
@@ -64,9 +62,7 @@ Use the provided R script to:
    - The red-coded third column in Sheet1
    - Any sheet name
 
----
-
-#### 3. Replace the file in Observable
+##### Step 3. Replace the file in Observable
    
 - Upload your updated Data_obs.xlsx back to the Observable notebook.
 
