@@ -24,10 +24,6 @@ You can apply any interpolator like this:
 const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue)
                 .domain([0.9, 2500]);
 
-
-<pre> const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue).domain([0.9, 2500]);
-</pre>
-
 Or use a linear scale instead:
 
 <pre> ```js const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
