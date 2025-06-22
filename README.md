@@ -2,6 +2,8 @@
 
 ### Includes Log Coloring, 1:110m Scale, and Labels
 
+**Updated:** June 21, 2025
+
 This interactive map is inspired by the original work *CountrySciProd Project* by [AlexanderRV22](https://github.com/Alex-rv150/CountrySciProud), which offers a global overview of **scientific production** through visual analytics. Building on that foundation, this version incorporates enhancements such as:
 
 - Logarithmic color scale.
