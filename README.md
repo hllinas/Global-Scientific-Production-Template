@@ -30,7 +30,7 @@ This interactive map was built using `JavaScript` with the `D3.js` library. The 
 
 - Customizable color interpolators for user-defined styles
 
-  > All code is written in JavaScript and can be directly edited within an Observable notebook, or adapted for any HTML-based environment.
+  > All code is written in JavaScript and can be directly edited within an `Observable notebook`, or adapted for any HTML-based environment.
 
 ---
 
