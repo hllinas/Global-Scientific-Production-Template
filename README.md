@@ -49,7 +49,7 @@ Use the provided `R` script to:
 
 - Export the updated file in the required format.
 
-  > The full script is [available here.](https://github.com/hllinas/Global-Scientific-Production-Template/blob/main/Observable.Rmd)
+  > The full script is [available here](https://github.com/hllinas/Global-Scientific-Production-Template/blob/main/Observable.Rmd) and is also included in this repository.
 
 
 ##### Step 2. Update the Observable Excel file
