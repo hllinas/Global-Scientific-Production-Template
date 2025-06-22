@@ -17,6 +17,7 @@ View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d).
 ![image](https://github.com/user-attachments/assets/3b57f30e-38ea-42f6-9c59-c570dbf1413f)
 
 ### Technology Used
+
 This interactive map was built using JavaScript with the `D3.js` library. The implementation includes:
 
 - Logarithmic and sequential color scales (`d3.scaleSequentialLog`, `d3.interpolateRgb`)
@@ -29,11 +30,16 @@ This interactive map was built using JavaScript with the `D3.js` library. The im
 
 All code is written in JavaScript and can be directly edited within an Observable notebook, or adapted for any HTML-based environment.
 
+---
+
 ### How to Update the Map with New Data
 
 If you want to update the map with a new frequency dataset (e.g., number of publications, citations, or any other metric), follow these steps:
 
+---
+
 #### 1. Process data in R
+
 Use the provided R script to:
 
 - Load the Excel file exported from biblioshiny (e.g., BiblioshinyReport1.xlsx).
@@ -43,6 +49,8 @@ Use the provided R script to:
 - Export the updated file in the required format.
 
 > The full script is available here: update_country_data.R
+
+---
 
 #### 2. Update the Observable Excel file
 
@@ -56,6 +64,8 @@ Use the provided R script to:
    - The red-coded third column in Sheet1
    - Any sheet name
 
+---
+
 #### 3. Replace the file in Observable
    
 - Upload your updated Data_obs.xlsx back to the Observable notebook.
@@ -64,6 +74,7 @@ Use the provided R script to:
 
 > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
 
+---
 
 ### Color Options for the Map
 
@@ -84,7 +95,10 @@ const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
                 .domain([0, 200]);
 ```
 
+---
+
 #### Available Color Interpolators
+
 Below is a comprehensive set of custom interpolators that you can copy and use directly in your project:
 
 ```js
@@ -121,13 +135,7 @@ Feel free to experiment with these combinations and adjust the domain based on y
 
 > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 
-
-
-
-
-
-
-
+---
 
 ### Citation
 
