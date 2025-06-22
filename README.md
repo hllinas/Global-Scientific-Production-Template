@@ -70,6 +70,8 @@ Use the provided R script to:
 
 > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
 
+---
+
 ### Color Options for the Map
 
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
@@ -88,8 +90,6 @@ Or use a linear scale instead:
 const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
                 .domain([0, 200]);
 ```
-
----
 
 #### Available Color Interpolators
 
