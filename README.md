@@ -43,7 +43,7 @@ If you want to update the map with a new frequency dataset (e.g., number of publ
 
 Use the provided R script to:
 
-- Load the Excel file exported from biblioshiny (e.g., BiblioshinyReport1.xlsx).
+- Load the Excel file exported from `biblioshiny` library (e.g., BiblioshinyReport1.xlsx).
 
 - Convert country names to ISO2 codes.
 
