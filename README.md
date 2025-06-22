@@ -20,7 +20,7 @@ View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d).
 
 ### Technology Used
 
-This interactive map was built using JavaScript with the `D3.js` library. The implementation includes:
+This interactive map was built using `JavaScript` with the `D3.js` library. The implementation includes:
 
 - Logarithmic and sequential color scales (`d3.scaleSequentialLog`, `d3.interpolateRgb`)
 
@@ -41,7 +41,7 @@ If you want to update the map with a new frequency dataset (e.g., number of publ
 
 ##### Step 1. Process data in R
 
-Use the provided R script to:
+Use the provided `R` script to:
 
 - Load the Excel file exported from `biblioshiny` library (e.g., BiblioshinyReport1.xlsx).
 
@@ -49,24 +49,24 @@ Use the provided R script to:
 
 - Export the updated file in the required format.
 
-  > The full script is available here: update_country_data.R
+  > The full script is available here: `update_country_data.R`.
 
 
 ##### Step 2. Update the Observable Excel file
 
 - Download the `Data_obs.xls` file currently used in your Observable notebook.
 
-- Open the sheet named Sheet6.
+- Open the sheet named `Sheet`.
 
-- Copy and paste the columns CountryCode and Freq from the R-exported file into columns 1 and 2 of Sheet6.
+- Copy and paste the columns `CountryCode` and `Freq` from the R-exported file into columns 1 and 2 of `Sheet6`.
   
   > Do not modify: 
-  > - The red-coded third column in Sheet1
-  > - Any sheet name
+  > - The red-coded third column in `Sheet6`.
+  > - Any sheet name.
 
 ##### Step 3. Replace the file in Observable
    
-- Upload your updated Data_obs.xlsx back to the Observable notebook.
+- Upload your updated `Data_obs.xlsx` back to the `Observable notebook`.
 
 - Run the notebook to regenerate the map with updated data.
 
