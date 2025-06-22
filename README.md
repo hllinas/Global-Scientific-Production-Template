@@ -84,6 +84,54 @@ Feel free to experiment with these combinations and adjust the domain based on y
 
 > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 
+### How to Update the Map with New Data
+
+If you want to update the map with a new frequency dataset (e.g., number of publications, citations, or any other metric), follow these steps:
+
+#### 1. Process data in R
+Use the provided R script to:
+
+- Load the Excel file exported from biblioshiny (e.g., BiblioshinyReport1.xlsx).
+
+- Convert country names to ISO2 codes.
+
+- Export the updated file in the required format.
+
+> The full script is available here: update_country_data.R
+
+#### 2. Update the Observable Excel file
+
+- Download the `Data_obs.xls` file currently used in your Observable notebook.
+
+- Open the sheet named Sheet6.
+
+- Copy and paste the columns CountryCode and Freq from the R-exported file into columns 1 and 2 of Sheet6.
+
+- Do not modify:
+      
+      - The red-coded third column in Sheet1
+      
+      - Any sheet name
+
+#### 3. Replace the file in Observable
+   
+- Upload your updated Data_obs.xlsx back to the Observable notebook.
+
+- Run the notebook to regenerate the map with updated data.
+
+> This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
+
+
+
+
+
+
+
+
+
+
+
+
 ### Citation
 
 To cite this repository in your academic work, teaching, or research:
