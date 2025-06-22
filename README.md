@@ -81,6 +81,39 @@ const colorInterpolators = {
 };
 ```
 
+
+### Citation
+
+To cite this repository in your academic work, teaching, or research:
+
+#### APA style
+
+> Llinás, H. (2025). *Global-Scientific-Production-Template* [GitHub repository].
+                    GitHub. [https://github.com/usuario/statistical-timeline](https://github.com/hllinas/Stats-to-AI-Timeline/tree/main)
+
+#### BibTeX
+
+```bibtex
+@misc{llinas2025timeline,
+  author       = {Humberto Llinás},
+  title        = {Global-Scientific-Production-Template},
+  year         = {2025},
+  howpublished = {\url{https://github.com/usuario/statistical-timeline}},
+  note         = {GitHub repository}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 Feel free to experiment with these combinations and adjust the domain based on your data range.
 
 > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
