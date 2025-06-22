@@ -1,0 +1,84 @@
+---
+title: "GLOBAL SCIENTIFIC PRODUCTION"
+subtitle: <h1>**Prepare Country Frequency Data for Observable Map**</h1>
+
+author: 
+  - name          : "Dr. rer. nat. Humberto LLinás Solano"
+    affiliation   : "Department of Mathematics and Statistics, Universidad del Norte (Barranquilla, Colombia)"
+     #corresponding : yes    # Define only one corresponding author
+     #address       : "Departamento de Matemáticas y Estadística"
+    email         : |
+      hllinas@uninorte.edu.co
+      
+      [Biographical sketch](https://rpubs.com/hllinas/Bio_Sketch)
+      
+      `r format(Sys.time(), "%d/%m/%y")` 
+    
+output: 
+  bookdown::html_document2: 
+    toc: true      
+    toc_depth: 4   
+    toc_float: true 
+    collapsed: false
+    smooth_scroll: false
+    number_sections: true   
+    html_document:
+      fig_caption: true
+      css: styles.css
+csl: science.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE)
+```
+
+```{r}
+library(readxl)      # For reading Excel files
+library(openxlsx)    # For writing Excel files
+library(countrycode) # For converting country names to ISO codes
+```
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- Separador  -->
+
+```{r}
+#  Load data from Biblioshiny export
+# Replace with your actual file path if needed
+input_file <- "BiblioshinyReport1.xlsx"
+sheet_name <- "CountrySciProd"
+
+Mapa <- read_excel(input_file, sheet = sheet_name)
+
+#  View available columns
+print(names(Mapa))
+
+#  Extract country names
+countries <- Mapa$region
+
+#  Convert country names to ISO2 codes
+country_codes <- countrycode(countries,
+                             origin = "country.name",
+                             destination = "iso2c")
+
+#  Append ISO2 codes to the data
+Mapa$CountryCode <- country_codes
+
+# Select relevant columns
+ordered_columns <- c("region", "CountryCode", "Freq")
+Mapa_ord <- Mapa[ordered_columns]
+
+#  Export to Excel file for Observable
+output_file <- "Biblio_F3_Mapa_country_codes.xlsx"
+output_sheet <- "hoja_de_trabajo"
+
+write.xlsx(Mapa_ord,
+           file = output_file,
+           sheetName = output_sheet,
+           rowNames = FALSE)
+
+# Completion message
+cat("Data exported to:", output_file, "in sheet:", output_sheet, "\n")
+```
+
+
