@@ -90,13 +90,13 @@ To cite this repository in your academic work, teaching, or research:
 
 #### APA style
 
-> Llinás, H. (2025). *Global-Scientific-Production-Template* [GitHub repository].
+> Llinás, H. & Rangel, A. (2025). *Global-Scientific-Production-Template* [GitHub repository].
                     GitHub.[https://github.com/hllinas/Global-Scientific-Production-Template/tree/main](https://github.com/hllinas/Global-Scientific-Production-Template/tree/main)
 #### BibTeX
 
 ```bibtex
 @misc{llinas2025timeline,
-  author       = {Humberto Llinás},
+  author       = {Humberto Llinás, Alexánder Rangel},
   title        = {Global-Scientific-Production-Template},
   year         = {2025},
   howpublished = {\url{https://github.com/usuario/statistical-timeline}},
