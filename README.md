@@ -22,9 +22,8 @@ You can apply any interpolator like this:
 
 
 
-<pre> 
-  ```js const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue) .domain([0.9, 2500]); ``` 
-</pre>
+<pre> ```js const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue) .domain([0.9, 2500]); 
+  ``` </pre>
 
 Or use a linear scale instead:
 
