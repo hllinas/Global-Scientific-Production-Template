@@ -32,7 +32,7 @@ All code is written in JavaScript and can be directly edited within an Observabl
 ### Color Options for the Map
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
 
-##### Usage
+#### Usage
 You can apply any interpolator like this:
 
 ```js
