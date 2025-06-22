@@ -80,7 +80,9 @@ const colorInterpolators = {
   lightGreenToDarkTurquoise: d3.interpolateRgb("lightgreen", "darkturquoise")
 };
 ```
+Feel free to experiment with these combinations and adjust the domain based on your data range.
 
+> These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 
 ### Citation
 
@@ -101,6 +103,3 @@ To cite this repository in your academic work, teaching, or research:
   note         = {GitHub repository}
 }
 ```
-Feel free to experiment with these combinations and adjust the domain based on your data range.
-
-> These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
