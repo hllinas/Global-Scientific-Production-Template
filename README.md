@@ -54,7 +54,7 @@ Use the provided `R` script to:
 
 ##### Step 2. Update the Observable Excel file
 
-- Download the `Data_obs.xls` file currently used in your `Observable notebook` by clicking the file icon 📎 in the right-hand panel (top-right corner of the notebook interface), under `File attachments`. Then, locate the `Data_obs.xlsx` file, click the three vertical dots (`⋮`) next to it, and select `Download`.
+- Download the `Data_obs.xls` file currently used in your `Observable notebook` by clicking the file icon 📎 in the right-hand panel (top-right corner of the notebook interface), under  `File attachments`. Then, locate the `Data_obs.xlsx` file, click the three vertical dots (`⋮`) next to it, and select `Download`.
 
 - Open the sheet named `Sheet6`.
 
