@@ -66,8 +66,8 @@ Use the provided `R` script to:
 
 ##### Step 3. Replace the file in Observable
    
-- Upload your updated `Data_obs.xlsx` back to the `Observable notebook`.
-
+- Upload your updated `Data_obs.xlsx` back to the `Observable notebook`. Go to the File attachments panel (📎 icon, top-right corner), locate the existing `Data_obs.xlsx`, click the three dots (`⋮`), and select `Replace file`. Then, upload your newly updated file.
+  
 - Run the notebook to regenerate the map with updated data.
 
   > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
