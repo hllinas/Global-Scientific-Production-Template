@@ -27,7 +27,7 @@ This interactive map was built using JavaScript with the `D3.js` library. The im
 
 All code is written in JavaScript and can be directly edited within an Observable notebook, or adapted for any HTML-based environment.
 
-#### Color Options for the Map
+### Color Options for the Map
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
 
 #### Usage
