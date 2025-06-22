@@ -12,9 +12,7 @@ Designed for researchers, educators, and policymakers, this tool allows users to
 
 View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d). 
 
-
 ![image](https://github.com/user-attachments/assets/4ebefd27-c07e-4663-9a29-d71cf42384af)
-
 
 ### Color Options for the Map
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
