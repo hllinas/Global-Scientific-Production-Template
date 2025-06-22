@@ -56,7 +56,7 @@ Use the provided `R` script to:
 
 - Download the `Data_obs.xls` file currently used in your Observable notebook.
 
-- Open the sheet named `Sheet`.
+- Open the sheet named `Sheet6`.
 
 - Copy and paste the columns `CountryCode` and `Freq` from the R-exported file into columns 1 and 2 of `Sheet6`.
   
