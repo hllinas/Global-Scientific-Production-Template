@@ -22,12 +22,14 @@ You can apply any interpolator like this:
 
 
 
-<pre> ```js const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue) .domain([0.9, 2500]); ``` </pre>
+<pre> ```js const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue) .domain([0.9, 2500]); ``` 
+</pre>
 
 Or use a linear scale instead:
 
 <pre> ```js const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
-                .domain([0, 200]); ``` </pre>
+                .domain([0, 200]); ``` 
+</pre>
 
 
 
@@ -64,7 +66,8 @@ Below is a comprehensive set of custom interpolators that you can copy and use d
   lightYellowToDarkGoldenrod: d3.interpolateRgb("lightyellow", "darkgoldenrod"),
   lightGreenToDarkTurquoise: d3.interpolateRgb("lightgreen", "darkturquoise")
 };
-``` </pre>
+``` 
+</pre>
   
 Feel free to experiment with these combinations and adjust the domain based on your data range.
 
