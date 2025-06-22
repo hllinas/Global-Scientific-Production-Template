@@ -27,12 +27,15 @@ const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue)
 
 Or use a linear scale instead:
 
+```js
 const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
                 .domain([0, 200]);
+```
 
 ### Available Color Interpolators
 Below is a comprehensive set of custom interpolators that you can copy and use directly in your project:
 
+```js
 const colorInterpolators = {
   cyanToBlue: d3.interpolateRgb("cyan", "blue"),
   aquamarineToGreen: d3.interpolateRgb("aquamarine", "green"),
@@ -61,7 +64,8 @@ const colorInterpolators = {
   lightYellowToDarkGoldenrod: d3.interpolateRgb("lightyellow", "darkgoldenrod"),
   lightGreenToDarkTurquoise: d3.interpolateRgb("lightgreen", "darkturquoise")
 };
-  
+```
+
 Feel free to experiment with these combinations and adjust the domain based on your data range.
 
 > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
