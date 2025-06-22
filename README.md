@@ -49,7 +49,7 @@ Use the provided R script to:
 
 - Export the updated file in the required format.
 
-> The full script is available here: update_country_data.R
+  > The full script is available here: update_country_data.R
 
 
 ##### Step 2. Update the Observable Excel file
