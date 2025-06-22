@@ -26,16 +26,13 @@ const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue)
 
 Or use a linear scale instead:
 
-```js 
-  const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
+const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
                 .domain([0, 200]);
 
 ### Available Color Interpolators
 Below is a comprehensive set of custom interpolators that you can copy and use directly in your project:
 
-
-```js
-  const colorInterpolators = {
+const colorInterpolators = {
   cyanToBlue: d3.interpolateRgb("cyan", "blue"),
   aquamarineToGreen: d3.interpolateRgb("aquamarine", "green"),
   mistyroseToOrange: d3.interpolateRgb("mistyrose", "orange"),
