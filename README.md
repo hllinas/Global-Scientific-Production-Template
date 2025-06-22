@@ -15,11 +15,11 @@ View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d).
 ![image](https://github.com/user-attachments/assets/3b57f30e-38ea-42f6-9c59-c570dbf1413f)
 
 ### Technology Used
-This interactive map was built using JavaScript with the D3.js library. The implementation includes:
+This interactive map was built using JavaScript with the `D3.js` library. The implementation includes:
 
-- Logarithmic and sequential color scales (d3.scaleSequentialLog, d3.interpolateRgb)
+- Logarithmic and sequential color scales (`d3.scaleSequentialLog`, `d3.interpolateRgb`)
 
-- Geospatial rendering with d3.geoPath and TopoJSON
+- Geospatial rendering with `d3.geoPath` and `TopoJSON`
 
 - Interactive labeling and zoom features
 
