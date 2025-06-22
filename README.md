@@ -47,7 +47,7 @@ const scale = d3.scaleSequential(colorInterpolators.skyblueToMidnightBlue)
                 .domain([0, 200]);
 ```
 
-##### Available Color Interpolators
+#### Available Color Interpolators
 Below is a comprehensive set of custom interpolators that you can copy and use directly in your project:
 
 ```js
