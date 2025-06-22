@@ -20,9 +20,12 @@ This section provides a collection of color scale combinations that you can appl
 ### Usage
 You can apply any interpolator like this:
 
+```js
+const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue)
+                .domain([0.9, 2500]);
 
 
-<pre> const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue) .domain([0.9, 2500]);
+<pre> const scale = d3.scaleSequentialLog(colorInterpolators.cyanToBlue).domain([0.9, 2500]);
 </pre>
 
 Or use a linear scale instead:
