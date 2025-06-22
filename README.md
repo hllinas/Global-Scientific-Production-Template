@@ -45,7 +45,7 @@ Use the provided `R` script to:
 
 - Load the Excel file exported from `biblioshiny` library (e.g., BiblioshinyReport1.xlsx).
 
-- Convert country names to ISO2 codes.
+- Convert country names to `ISO2` codes.
 
 - Export the updated file in the required format.
 
