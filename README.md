@@ -1,6 +1,6 @@
 # Global-Scientific-Production-Template
 
-### Includes Log Coloring, 1:110m Scale, and Labels
+## Includes Log Coloring, 1:110m Scale, and Labels
 
 **Updated:** June 21, 2025
 
