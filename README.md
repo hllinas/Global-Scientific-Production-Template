@@ -12,7 +12,8 @@ Designed for researchers, educators, and policymakers, this tool allows users to
 
 View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d). 
 
-![image](https://github.com/user-attachments/assets/4ebefd27-c07e-4663-9a29-d71cf42384af)
+![image](![image](https://github.com/user-attachments/assets/3b57f30e-38ea-42f6-9c59-c570dbf1413f)
+)
 
 ### Technology Used
 This interactive map was built using JavaScript with the D3.js library. The implementation includes:
