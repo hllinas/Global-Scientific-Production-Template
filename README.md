@@ -61,8 +61,8 @@ Use the provided R script to:
 - Copy and paste the columns CountryCode and Freq from the R-exported file into columns 1 and 2 of Sheet6.
 
  > Do not modify: 
-   - The red-coded third column in Sheet1
-   - Any sheet name
+ >  - The red-coded third column in Sheet1
+ >  - Any sheet name
 
 ##### Step 3. Replace the file in Observable
    
