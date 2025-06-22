@@ -1,7 +1,6 @@
 # Global-Scientific-Production-Template
 
-<h1 style="color: darkblue;">Global Scientific Production Template</h1>
-<h3 style="color: darkgreen;">Includes Log Coloring, 1:110m Scale, and Labels, </h3>
+### Includes Log Coloring, 1:110m Scale, and Labels
 
 This interactive map is inspired by the original work *CountrySciProd Project* by [AlexanderRV22](https://github.com/Alex-rv150/CountrySciProud), which offers a global overview of **scientific production** through visual analytics. Building on that foundation, this version incorporates enhancements such as:
 
@@ -10,3 +9,5 @@ This interactive map is inspired by the original work *CountrySciProd Project* b
 - Dynamic country labels displaying names and frequencies.
 
 Designed for researchers, educators, and policymakers, this tool allows users to explore how different countries contribute to scientific research. The visualization supports deeper insights into scientific output worldwide, and the code can be easily modified to reflect custom frequency data or labeling preferences.
+
+View the full [here]([https://github.com/hllinas/NotasClase-Publicos](https://observablehq.com/d/ec528de5c6f1cd3d)).
