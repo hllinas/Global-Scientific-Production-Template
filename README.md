@@ -11,3 +11,6 @@ This interactive map is inspired by the original work *CountrySciProd Project* b
 Designed for researchers, educators, and policymakers, this tool allows users to explore how different countries contribute to scientific research. The visualization supports deeper insights into scientific output worldwide, and the code can be easily modified to reflect custom frequency data or labeling preferences.
 
 View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d). 
+
+
+![image](https://github.com/user-attachments/assets/4ebefd27-c07e-4663-9a29-d71cf42384af)
