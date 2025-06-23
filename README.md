@@ -32,6 +32,7 @@
 ---
 
 ### Description 
+
 <p style="font-size: 0.5em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This interactive map is inspired by the original work *CountrySciProd Project* by [AlexanderRV22](https://github.com/Alex-rv150/CountrySciProud), which offers a global overview of **scientific production** through visual analytics. Building on that foundation, this version incorporates enhancements such as:
