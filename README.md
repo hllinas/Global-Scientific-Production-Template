@@ -270,19 +270,16 @@ You can easily export the map visualization for use in reports, presentations, o
 
 #### Option 1: From the chart menu (top-right corner)
 
-1. Hover over the map until the **three-dot menu** (⋮) appears in the top-right corner.
+1. Hover over the map until the **three-dot menu** (`⋮`) appears in the top-right corner.
 2. Click on it to open the options.
 3. Choose:
-   - **Download SVG** – to export a high-quality scalable vector graphic.
-   - **Download PNG** – to export a standard image file.
+   - `Download SVG`:  to export a high-quality scalable vector graphic.
+   - `Download PNG`: to export a standard image file.
 
-*(See image below for reference)*  
-![Chart menu for exporting map](path/to/your/image.png)
 
 #### Option 2: From the button below the map
 
-If available, a **“Save as SVG”** button is shown directly beneath the map.  
-Click it to instantly download the SVG file.
+If available, a `Save as SVG` button is shown directly beneath the map. Click it to instantly download the SVG file.
 
 > Tip: SVG files are ideal for high-resolution printing or editing in tools like Adobe Illustrator, Inkscape, or PowerPoint.
 ---
