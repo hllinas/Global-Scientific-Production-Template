@@ -74,11 +74,70 @@ Use the provided `R` script to:
 
 ---
 
+
+### Custom Visualization Tweaks
+
+This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
+
+---
+
+####  Display Only the Top N Countries
+
+If you'd like to limit the number of countries displayed (e.g., top 5), you can define it like this:
+
+```js
+// Display only the top N countries
+const n = 5;
+```
+
+#### Special Case Capitalization for Country Names
+
+To ensure that some country names like UK, USA, and Emirates are shown in their usual abbreviated form while other names are capitalized normally:
+
+```js
+const uk = "UK";
+const usa = "USA";
+const uae = "Emirates";
+
+function capitalizeWords(text) {
+  const lowerText = text.toLowerCase();
+
+  if (lowerText === uk.toLowerCase() || lowerText === usa.toLowerCase()) {
+    return text; // Keep abbreviation as-is
+  } else {
+    return text
+      .toLowerCase()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+}
+```
+
+#### Custom Styling for Text Labels
+
+Here’s an example of how to customize label appearance — including font, fill color, stroke, and position:
+
+```js
+.attr("text-anchor", "middle")      // Text alignment
+.attr("font-size", "15px")          // Font size
+.attr("fill", "black")              // Fill color
+.attr("stroke", "white")            // Stroke (outline) color
+.attr("stroke-width", 2)            // Stroke width
+.attr("paint-order", "stroke")      // Draw stroke behind fill
+.attr("x", 50)                      // X position of the label
+.attr("y", 430)                     // Y position of the label
+.attr("font-family", "arial")       // Font family
+.attr("text", "1:110m small scale") // Text content
+```
+These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
+
 ### Color Options for the Map
 
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
 
 #### Usage
+
 You can apply any interpolator like this:
 
 ```js
