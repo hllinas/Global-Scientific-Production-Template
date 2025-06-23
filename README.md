@@ -5,7 +5,7 @@
 **Updated:** June 21, 2025
 
 ---
-## Table of Contents
+## 1. Table of Contents
 - [Description](#description)
 - [Technology Used](#technology-used)
 - [How to Update the Map with New Data](#how-to-update-the-map-with-new-data)
@@ -31,7 +31,7 @@
   - [BibTeX](#bibtex)
 ---
 
-### Description 
+### 2. Description 
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This interactive map is inspired by the original work *CountrySciProd Project* by [AlexanderRV22](https://github.com/Alex-rv150/CountrySciProud), which offers a global overview of **scientific production** through visual analytics. Building on that foundation, this version incorporates enhancements such as:
@@ -48,7 +48,7 @@ View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d).
 
 ---
 
-### Technology Used
+### 3. Technology Used
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This interactive map was built using `JavaScript` with the `D3.js` library. The implementation includes:
@@ -64,7 +64,7 @@ This interactive map was built using `JavaScript` with the `D3.js` library. The 
   > All code is written in `JavaScript` and can be directly edited within an `Observable notebook`, or adapted for any HTML-based environment.
 ---
 
-### How to Update the Map with New Data
+### 4. How to Update the Map with New Data
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 If you want to update the map with a new frequency dataset (e.g., number of publications, citations, or any other metric), follow these steps:
@@ -103,7 +103,7 @@ Use the provided `R` script to:
 
   > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
 
-### Custom Visualization Tweaks
+### 5. Custom Visualization Tweaks
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
@@ -230,7 +230,7 @@ g.selectAll("text.label")
   > These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
 ---
 
-### Color Options for the Map
+### 6. Color Options for the Map
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
@@ -290,7 +290,7 @@ Feel free to experiment with these combinations and adjust the domain based on y
   > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 ---
 
-### How to Download the Map (SVG or PNG)
+### 7. How to Download the Map (SVG or PNG)
 
 You can easily export the map visualization for use in reports, presentations, or publications.
 
@@ -310,7 +310,7 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
 > Tip: SVG files are ideal for high-resolution printing or editing in tools like Adobe Illustrator, Inkscape, or PowerPoint.
 ---
 
-### Contributors
+### 8. Contributors
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 - Dr. rer. nat. Humberto Llinás Solano (hllinas@uninorte.edu.co)¹ 
@@ -323,7 +323,7 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
   > ²  Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia.
 ---
 
-### Citation
+### 9. Citation
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 To cite this repository in your academic work, teaching, or research:
