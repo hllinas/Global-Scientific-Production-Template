@@ -2,7 +2,8 @@
 
 ## Includes Log Coloring, 1:110m Scale, and Labels
 
-**Updated:** June 21, 2025
+**Updated:** June 23, 2025
+![Last Commit](https://img.shields.io/github/last-commit/hllinas/Stats-to-AI-Timeline?style=flat&color=blue)
 
 ---
 #### Table of Contents
