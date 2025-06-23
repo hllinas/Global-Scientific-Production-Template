@@ -32,7 +32,7 @@
 ---
 
 ### Description [🔝 Return to Table of Contents](#table-of-contents) *(🔝 [Return to Table of Contents](#table-of-contents))*
-<p style="font-size: 0.8em;">🔝 <a href="#table-of-contents">Return to Table of Contents</a></p>
+<p style="font-size: 0.8em;">🔝 <a href="#table-of-contents">toc</a></p>
 
 This interactive map is inspired by the original work *CountrySciProd Project* by [AlexanderRV22](https://github.com/Alex-rv150/CountrySciProud), which offers a global overview of **scientific production** through visual analytics. Building on that foundation, this version incorporates enhancements such as:
 
