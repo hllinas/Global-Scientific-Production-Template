@@ -79,7 +79,6 @@ Use the provided `R` script to:
 
 This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
 
----
 
 ####  Display Only the Top N Countries
 
@@ -130,7 +129,9 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("font-family", "arial")       // Font family
 .attr("text", "1:110m small scale") // Text content
 ```
-These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
+> These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
+
+---
 
 ### Color Options for the Map
 
