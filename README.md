@@ -7,17 +7,24 @@
 
 ## 📑 Table of Contents
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Authors](#authors)
-- [License](#license)
-
-
-
-
-
+- [Description](#description)
+- [Technology Used](#technology-used)
+- [How to Update the Map with New Data](#how-to-update-the-map-with-new-data)
+  - [Step 1. Process data in R](#step-1-process-data-in-r)
+  - [Step 2. Update the Observable Excel file](#step-2-update-the-observable-excel-file)
+  - [Step 3. Replace the file in Observable](#step-3-replace-the-file-in-observable)
+- [Custom Visualization Tweaks](#custom-visualization-tweaks)
+  - [Display Only the Top n Countries](#display-only-the-top-n-countries)
+  - [Extract Top Countries from Data](#extract-top-countries-from-data)
+  - [Special Case Capitalization for Country Names](#special-case-capitalization-for-country-names)
+  - [Custom Styling for Text Labels](#custom-styling-for-text-labels)
+  - [Custom Legend Title and Position](#custom-legend-title-and-position)
+  - [Labeling Only the Top n Countries on the Map](#labeling-only-the-top-n-countries-on-the-map)
+- [Color Options for the Map](#color-options-for-the-map)
+  - [Usage](#usage)
+  - [Available Color Interpolators](#available-color-interpolators)
+- [How to Download the Map (SVG or PNG)](#how-to-download-the-map-svg-or-png)
+  - [Option 1: From the chart menu (top-right corner)](#option-1-from-the-ch)
 
 
 ### Description
