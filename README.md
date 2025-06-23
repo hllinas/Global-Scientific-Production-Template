@@ -74,7 +74,6 @@ Use the provided `R` script to:
 
 ---
 
-
 ### Custom Visualization Tweaks
 
 This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
@@ -82,17 +81,17 @@ This project includes some small but helpful code adaptations to improve the vis
 
 ####  Display Only the Top N Countries
 
-If you'd like to limit the number of countries displayed (e.g., top 5), you can define it like this:
+If you'd like to limit the number of countries displayed (e.g., top n=5), you can define it like this:
 
 ```js
-// Display only the top N countries
+// Display only the top n countries
 const n = 5;
 ```
 
 
 #### Extract Top Countries from Data
 
-You can use the following function to sort your dataset by frequency, take the top N countries, and enrich the result with country names:
+You can use the following function to sort your dataset by frequency, take the top n countries, and enrich the result with country names:
 
 ```js
 function getTopCountries(data, countryCodes, n) {
