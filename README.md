@@ -5,34 +5,34 @@
 **Updated:** June 21, 2025
 
 ---
-## 1. Table of Contents
-- [2. Description](#2-description)
-- [3. Technology Used](#3-technology-used)
-- [4. How to Update the Map with New Data](#4-how-to-update-the-map-with-new-data)
+#### Table of Contents
+- [1. Description](#1-description)
+- [2. Technology Used](#2-technology-used)
+- [3. How to Update the Map with New Data](#3-how-to-update-the-map-with-new-data)
   - [Step 1. Process data in R](#step-1-process-data-in-r)
   - [Step 2. Update the Observable Excel file](#step-2-update-the-observable-excel-file)
   - [Step 3. Replace the file in Observable](#step-3-replace-the-file-in-observable)
-- [5. Custom Visualization Tweaks](#5-custom-visualization-tweaks)
+- [4. Custom Visualization Tweaks](#4-custom-visualization-tweaks)
   - [Display Only the Top n Countries](#display-only-the-top-n-countries)
   - [Extract Top Countries from Data](#extract-top-countries-from-data)
   - [Special Case Capitalization for Country Names](#special-case-capitalization-for-country-names)
   - [Custom Styling for Text Labels](#custom-styling-for-text-labels)
   - [Custom Legend Title and Position](#custom-legend-title-and-position)
   - [Labeling Only the Top n Countries on the Map](#labeling-only-the-top-n-countries-on-the-map)
-- [6. Color Options for the Map](#6-color-options-for-the-map)
+- [5. Color Options for the Map](#5-color-options-for-the-map)
   - [Usage](#usage)
   - [Available Color Interpolators](#available-color-interpolators)
-- [7. How to Download the Map (SVG or PNG)](#7-how-to-download-the-map-svg-or-png)
+- [6. How to Download the Map (SVG or PNG)](#6-how-to-download-the-map-svg-or-png)
   - [Option 1: From the chart menu (top-right corner)](#option-1-from-the-chart-menu-top-right-corner)
   - [Option 2: From the button below the map](#option-2-from-the-button-below-the-map)
-- [8. Contributors](#8-contributors)
-- [9. Citation](#9-citation)
+- [7. Contributors](#7-contributors)
+- [8. Citation](#8-citation)
   - [APA style](#apa-style)
   - [BibTeX](#bibtex)
 ---
 
-### 2. Description 
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 1. Description 
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This interactive map is inspired by the original work *CountrySciProd Project* by [AlexanderRV22](https://github.com/Alex-rv150/CountrySciProud), which offers a global overview of **scientific production** through visual analytics. Building on that foundation, this version incorporates enhancements such as:
 
@@ -48,8 +48,8 @@ View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d).
 
 ---
 
-### 3. Technology Used
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 2. Technology Used
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This interactive map was built using `JavaScript` with the `D3.js` library. The implementation includes:
 
@@ -64,8 +64,8 @@ This interactive map was built using `JavaScript` with the `D3.js` library. The 
   > All code is written in `JavaScript` and can be directly edited within an `Observable notebook`, or adapted for any HTML-based environment.
 ---
 
-### 4. How to Update the Map with New Data
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 3. How to Update the Map with New Data
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 If you want to update the map with a new frequency dataset (e.g., number of publications, citations, or any other metric), follow these steps:
 
@@ -103,8 +103,8 @@ Use the provided `R` script to:
 
   > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
 
-### 5. Custom Visualization Tweaks
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 4. Custom Visualization Tweaks
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
 
@@ -144,7 +144,7 @@ function getTopCountries(data, countryCodes, n) {
   return topWithNames;
 }
 ```
-<p style="font-size: 0.1em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+<p style="font-size: 0.1em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 #### Special Case Capitalization for Country Names
 
@@ -188,7 +188,7 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("fill", "black")              // Text color
 .attr("text", "1:110m small scale") // Text content
 ```
-<p style="font-size: 0.1em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+<p style="font-size: 0.1em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 #### Custom Legend Title and Position
 
@@ -232,8 +232,8 @@ g.selectAll("text.label")
   > These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
 ---
 
-### 6. Color Options for the Map
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 5. Color Options for the Map
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
 
@@ -292,8 +292,8 @@ Feel free to experiment with these combinations and adjust the domain based on y
   > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 ---
 
-### 7. How to Download the Map (SVG or PNG)
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 6. How to Download the Map (SVG or PNG)
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 You can easily export the map visualization for use in reports, presentations, or publications.
 
@@ -313,8 +313,8 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
 > Tip: SVG files are ideal for high-resolution printing or editing in tools like Adobe Illustrator, Inkscape, or PowerPoint.
 ---
 
-### 8. Contributors
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 7. Contributors
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 - Dr. rer. nat. Humberto Llinás Solano (hllinas@uninorte.edu.co)¹ 
 - Alexander Rangel Vizcaíno (alexanderrangel@uninorte.edu.co)¹
@@ -326,8 +326,8 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
   > ²  Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia.
 ---
 
-### 9. Citation
-<p style="font-size: 0.3em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
+### 8. Citation
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 To cite this repository in your academic work, teaching, or research:
 
