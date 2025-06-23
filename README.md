@@ -264,16 +264,11 @@ Feel free to experiment with these combinations and adjust the domain based on y
 
 - Dr. rer. nat. [Humberto Llinás Solano][^1] (hllinas@uninorte.edu.co)$^1$, 
 - Alexander Rangel Vizcaíno Vizcaíno Alexander Rangel ([alexanderrangel@uninorte.edu.co](mailto:alexanderrangel@uninorte.edu.co))¹
+- Daniela Nuñez Guzmán (nunezdm@uninorte.edu.co)¹
+- Humberto LLinás Marimón (lhumberto@uninorte.edu.co)²
 
-...
-
-¹ Department of Mathematics and Statistics, Universidad del Norte, Barranquilla, Colombia.
-
-- Daniela Nuñez Guzmán (nunezdm@uninorte.edu.co) [^1]
-- Humberto LLinás Marimón (lhumberto@uninorte.edu.co) [^2]
-
-  > [^1] Department of Mathematics and Statistics, Universidad del Norte, Barranquilla, Colombia
-  > [^2] Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia
+  > ¹ Department of Mathematics and Statistics, Universidad del Norte, Barranquilla, Colombia.
+  > ²  Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia
 ---
 
 ### Citation
