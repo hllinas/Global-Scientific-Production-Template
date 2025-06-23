@@ -144,6 +144,7 @@ function getTopCountries(data, countryCodes, n) {
   return topWithNames;
 }
 ```
+<p style="font-size: 0.1em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
 
 #### Special Case Capitalization for Country Names
 
@@ -168,7 +169,6 @@ function capitalizeWords(text) {
   }
 }
 ```
-<p style="font-size: 0.1em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
 
 #### Custom Styling for Text Labels
 
@@ -188,6 +188,7 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("fill", "black")              // Text color
 .attr("text", "1:110m small scale") // Text content
 ```
+<p style="font-size: 0.1em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
 
 #### Custom Legend Title and Position
 
