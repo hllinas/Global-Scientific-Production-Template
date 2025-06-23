@@ -79,7 +79,7 @@ Use the provided `R` script to:
 This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
 
 
-####  Display Only the Top N Countries
+####  Display Only the Top n Countries
 
 If you'd like to limit the number of countries displayed (e.g., top n=5), you can define it like this:
 
