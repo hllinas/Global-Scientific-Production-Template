@@ -6,9 +6,6 @@
 
 ---
 ## Table of Contents
-
-## 📑 Table of Contents
-
 - [Description](#description)
 - [Technology Used](#technology-used)
 - [How to Update the Map with New Data](#how-to-update-the-map-with-new-data)
