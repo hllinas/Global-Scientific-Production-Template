@@ -193,7 +193,8 @@ g.selectAll("text.label")
   .append("text")
   .attr("class", "label")
   .attr("transform", d => {
-    const centroid = path.centroid(d);       // Calculate the label's position (center of the country shape)
+    const centroid = path.centroid(d); // Calculate the label's position
+                                       // (center of the country shape)
     return `translate(${centroid[0]},${centroid[1]})`;
   });
 ```
