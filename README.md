@@ -269,7 +269,7 @@ Feel free to experiment with these combinations and adjust the domain based on y
 
   > ¹ Department of Mathematics and Statistics, Universidad del Norte, Barranquilla, Colombia.
   > 
-  > ²  Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia
+  > ²  Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia.
 ---
 
 ### Citation
