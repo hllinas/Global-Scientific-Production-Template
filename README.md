@@ -258,7 +258,17 @@ const colorInterpolators = {
 Feel free to experiment with these combinations and adjust the domain based on your data range.
 
   > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
+---
 
+### Contributors
+
+- Dr. rer. nat. Humberto Llinás Solano (hllinas@uninorte.edu.co)[^1], 
+- Alexander Rangel Vizcaíno (alexanderrangel@uninorte.edu.co)[^1]
+- Daniela Nuñez Guzmán (nunezdm@uninorte.edu.co)[^1]
+- Humberto LLinás Marimón (lhumberto@uninorte.edu.co)[^2]
+
+  > [^1] Department of Mathematics and Statistics, Universidad del Norte, Barranquilla, Colombia
+  > [^2] Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia
 ---
 
 ### Citation
