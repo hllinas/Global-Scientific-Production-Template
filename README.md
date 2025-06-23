@@ -3,13 +3,11 @@
 ## Includes Log Coloring, 1:110m Scale, and Labels
 
 **Updated:** June 23, 2025
+
 ![Last Commit](https://img.shields.io/github/last-commit/hllinas/Stats-to-AI-Timeline?style=flat&color=blue)
+
 # Al final del Rmd
 
-
-```r
-cat(paste0("**Updated:** ", format(Sys.Date(), "%B %d, %Y")), file = "README.md", append = TRUE)
-```
 ---
 #### Table of Contents
 - [1. Description](#1-description)
