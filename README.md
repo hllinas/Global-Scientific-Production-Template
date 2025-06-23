@@ -49,6 +49,7 @@ View the full [here](https://observablehq.com/d/ec528de5c6f1cd3d).
 ---
 
 ### Technology Used
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This interactive map was built using `JavaScript` with the `D3.js` library. The implementation includes:
 
@@ -64,6 +65,7 @@ This interactive map was built using `JavaScript` with the `D3.js` library. The 
 ---
 
 ### How to Update the Map with New Data
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 If you want to update the map with a new frequency dataset (e.g., number of publications, citations, or any other metric), follow these steps:
 
@@ -102,6 +104,7 @@ Use the provided `R` script to:
   > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
 
 ### Custom Visualization Tweaks
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This project includes some small but helpful code adaptations to improve the visualization experience. These changes are completely optional — feel free to modify or extend them based on your preferences or the needs of your dataset.
 
@@ -228,6 +231,7 @@ g.selectAll("text.label")
 ---
 
 ### Color Options for the Map
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 This section provides a collection of color scale combinations that you can apply to the Global Scientific Production Template. These color interpolators can be used to highlight scientific production frequencies in different styles, helping tailor the visual experience to your goals.
 
@@ -307,6 +311,7 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
 ---
 
 ### Contributors
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 - Dr. rer. nat. Humberto Llinás Solano (hllinas@uninorte.edu.co)¹ 
 - Alexander Rangel Vizcaíno (alexanderrangel@uninorte.edu.co)¹
@@ -319,6 +324,7 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
 ---
 
 ### Citation
+<p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 To cite this repository in your academic work, teaching, or research:
 
