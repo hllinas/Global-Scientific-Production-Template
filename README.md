@@ -170,9 +170,11 @@ svg.append("g")
   .append(() => {
     return Legend(scale, {
       title: "Log of CountrySciProd", // Title displayed above the legend
-      ticks: 6,                        // Number of tick marks to display on the scale
-                                       // e.g., 6 tick values like 1, 10, 100, 1k, 10k, 100k (for log scale)
-      tickFormat: ".0f"               // Format for tick labels (e.g., ".2s" for 1k, ".0f" for integers)
+      ticks: 6,                       // Number of tick marks to display on the scale
+                                      // e.g., 6 tick values like 1, 10, 100, 1k, 10k, 100k
+                                      // (for log scale)
+      tickFormat: ".0f"               // Format for tick labels
+                                      // (e.g., ".2s" for 1k, ".0f" for integers)
     });
   });
 ```
@@ -271,7 +273,8 @@ To cite this repository in your academic work, teaching, or research:
 
 ```bibtex
 @misc{llinas2025timeline,
-  author       = {Humberto Llinás Solano, Alexánder Rangel Vizcaíno, Daniela Nuñez, Humberto Llinás Marimón},
+  author       = {Humberto Llinás Solano, Alexánder Rangel Vizcaíno,
+                  Daniela Nuñez, Humberto Llinás Marimón},
   title        = {Global-Scientific-Production-Template},
   year         = {2025},
   howpublished = {\url{https://github.com/usuario/statistical-timeline}},
