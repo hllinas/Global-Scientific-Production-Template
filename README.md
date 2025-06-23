@@ -89,6 +89,33 @@ If you'd like to limit the number of countries displayed (e.g., top 5), you can 
 const n = 5;
 ```
 
+
+#### Extract Top Countries from Data
+
+You can use the following function to sort your dataset by frequency, take the top N countries, and enrich the result with country names:
+
+```js
+function getTopCountries(data, countryCodes, n) {
+  // Sort by frequency (descending)
+  const sorted = [...data].sort((a, b) => b.B - a.B);
+  
+  // Get top N
+  const top = sorted.slice(0, n);
+
+  // Enrich with country names if available
+  const topWithNames = top.map(entry => {
+    const match = countryCodes.find(c => c["country-code"] == entry.C);
+    return {
+      code: entry.C,
+      name: match ? match.name.toUpperCase() : "Unknown",
+      freq: entry.B
+    };
+  });
+
+  return topWithNames;
+}
+```
+
 #### Special Case Capitalization for Country Names
 
 To ensure that some country names like UK, USA, and Emirates are shown in their usual abbreviated form while other names are capitalized normally:
@@ -128,7 +155,7 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("y", 430)                     // Y position of the label
 .attr("font-family", "arial")       // Font family
 .attr("font-size", "15px")          // Text size
- .attr("fill", "black")             // Text color
+.attr("fill", "black")              // Text color
 .attr("text", "1:110m small scale") // Text content
 ```
 > These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
