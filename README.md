@@ -70,7 +70,6 @@ Use the provided `R` script to:
 - Run the notebook to regenerate the map with updated data.
 
   > This method ensures your visualization stays up to date with the latest scientific production metrics, while keeping the internal map logic unchanged.
----
 
 ### Custom Visualization Tweaks
 
