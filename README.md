@@ -157,8 +157,47 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("fill", "black")              // Text color
 .attr("text", "1:110m small scale") // Text content
 ```
-> These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
 
+---
+
+#### Custom Legend Title and Position
+
+If you want to reposition the legend or change its title and tick formatting, you can adapt the following snippet. This example places the legend at coordinates `(650, 380)` and sets the title to `"Log of CountrySciProd"` with 6 ticks and a custom format:
+
+```js
+svg.append("g")
+  .attr("transform", "translate(650, 380)") // Change position of the legend
+  .append(() => {
+    return Legend(scale, {
+      title: "Log of CountrySciProd", // Title displayed above the legend
+      ticks: 6,                        // Number of tick marks to display on the scale
+                                       // e.g., 6 tick values like 1, 10, 100, 1k, 10k, 100k (for log scale)
+      tickFormat: ".0f"               // Format for tick labels (e.g., ".2s" for 1k, ".0f" for integers)
+    });
+  });
+```
+
+### Labeling Only the Top n Countries on the Map
+
+To annotate only the top `n` countries based on frequency, you can use the result of `getTopCountries(...)` to filter which countries will display labels. This ensures that your map remains clean and focused:
+
+```js
+const top = getTopCountries(data, countryCodes, n); // Get top N countries
+
+g.selectAll("text.label")
+  .data(topojson.feature(world, world.objects.countries).features) // Convert TopoJSON to GeoJSON
+  .enter()
+  .filter(d => top.some(p => p.code == d.id)) // Show labels only for top countries
+  .append("text")
+  .attr("class", "label")
+  .attr("transform", d => {
+    const centroid = path.centroid(d);       // Calculate the label's position (center of the country shape)
+    return `translate(${centroid[0]},${centroid[1]})`;
+  });
+```
+
+
+> These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
 ---
 
 ### Color Options for the Map
@@ -227,13 +266,13 @@ To cite this repository in your academic work, teaching, or research:
 
 #### APA style
 
-> Llinás Solano, H.,  & LLinás Marimón, H. (2025). *Global-Scientific-Production-Template* [GitHub repository].
+> Llinás Solano, H., Rangel Vizcaíno, A., Nuñez Guzmán, D. & LLinás Marimón, H. (2025). *Global-Scientific-Production-Template* [GitHub repository].
                     GitHub.[https://github.com/hllinas/Global-Scientific-Production-Template/tree/main](https://github.com/hllinas/Global-Scientific-Production-Template/tree/main)
 #### BibTeX
 
 ```bibtex
 @misc{llinas2025timeline,
-  author       = {Humberto Llinás Solano, Humberto Llinás Marimón},
+  author       = {Humberto Llinás Solano, Alexánder Rangel Vizcaíno, Daniela Nuñez, Humberto Llinás Marimón},
   title        = {Global-Scientific-Production-Template},
   year         = {2025},
   howpublished = {\url{https://github.com/usuario/statistical-timeline}},
