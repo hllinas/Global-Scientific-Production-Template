@@ -261,6 +261,32 @@ Feel free to experiment with these combinations and adjust the domain based on y
   > These color scales were designed to offer flexibility for thematic visualizations and can be adapted for different map layers, legends, or user-driven filters.
 ---
 
+
+---
+
+### How to Download the Map (SVG or PNG)
+
+You can easily export the map visualization for use in reports, presentations, or publications.
+
+#### Option 1: From the chart menu (top-right corner)
+
+1. Hover over the map until the **three-dot menu** (⋮) appears in the top-right corner.
+2. Click on it to open the options.
+3. Choose:
+   - **Download SVG** – to export a high-quality scalable vector graphic.
+   - **Download PNG** – to export a standard image file.
+
+*(See image below for reference)*  
+![Chart menu for exporting map](path/to/your/image.png)
+
+#### Option 2: From the button below the map
+
+If available, a **“Save as SVG”** button is shown directly beneath the map.  
+Click it to instantly download the SVG file.
+
+> Tip: SVG files are ideal for high-resolution printing or editing in tools like Adobe Illustrator, Inkscape, or PowerPoint.
+---
+
 ### Contributors
 
 - Dr. rer. nat. Humberto Llinás Solano (hllinas@uninorte.edu.co)¹ 
