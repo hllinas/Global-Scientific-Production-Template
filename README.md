@@ -263,7 +263,12 @@ Feel free to experiment with these combinations and adjust the domain based on y
 ### Contributors
 
 - Dr. rer. nat. [Humberto Llinás Solano][^1] (hllinas@uninorte.edu.co)$^1$, 
-- Alexander Rangel Vizcaíno Vizcaíno ([alexanderrangel@uninorte.edu.co](mailto:alexanderrangel@uninorte.edu.co))[^1]
+- Alexander Rangel Vizcaíno Vizcaíno Alexander Rangel ([alexanderrangel@uninorte.edu.co](mailto:alexanderrangel@uninorte.edu.co))¹
+
+...
+
+¹ Department of Mathematics and Statistics, Universidad del Norte, Barranquilla, Colombia.
+
 - Daniela Nuñez Guzmán (nunezdm@uninorte.edu.co) [^1]
 - Humberto LLinás Marimón (lhumberto@uninorte.edu.co) [^2]
 
