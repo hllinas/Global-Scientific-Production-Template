@@ -4,8 +4,8 @@
 
 **Updated:** June 21, 2025
 
-
-## 📑 Table of Contents
+---
+## Table of Contents
 
 - [Description](#description)
 - [Technology Used](#technology-used)
@@ -25,7 +25,7 @@
   - [Available Color Interpolators](#available-color-interpolators)
 - [How to Download the Map (SVG or PNG)](#how-to-download-the-map-svg-or-png)
   - [Option 1: From the chart menu (top-right corner)](#option-1-from-the-ch)
-
+---
 
 ### Description
 
