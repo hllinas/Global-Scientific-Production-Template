@@ -182,7 +182,7 @@ svg.append("g")
 To annotate only the top `n` countries based on frequency, you can use the result of `getTopCountries(...)` to filter which countries will display labels. This ensures that your map remains clean and focused:
 
 ```js
-const top = getTopCountries(data, countryCodes, n); // Get top N countries
+const top = getTopCountries(data, countryCodes, n); // Get top n countries
 
 g.selectAll("text.label")
   .data(topojson.feature(world, world.objects.countries).features) // Convert TopoJSON to GeoJSON
@@ -195,7 +195,6 @@ g.selectAll("text.label")
     return `translate(${centroid[0]},${centroid[1]})`;
   });
 ```
-
 
 > These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
 ---
