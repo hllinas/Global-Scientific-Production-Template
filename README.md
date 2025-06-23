@@ -7,6 +7,8 @@
 ---
 ## Table of Contents
 
+## 📑 Table of Contents
+
 - [Description](#description)
 - [Technology Used](#technology-used)
 - [How to Update the Map with New Data](#how-to-update-the-map-with-new-data)
@@ -24,7 +26,12 @@
   - [Usage](#usage)
   - [Available Color Interpolators](#available-color-interpolators)
 - [How to Download the Map (SVG or PNG)](#how-to-download-the-map-svg-or-png)
-  - [Option 1: From the chart menu (top-right corner)](#option-1-from-the-ch)
+  - [Option 1: From the chart menu (top-right corner)](#option-1-from-the-chart-menu-top-right-corner)
+  - [Option 2: From the button below the map](#option-2-from-the-button-below-the-map)
+- [Contributors](#contributors)
+- [Citation](#citation)
+  - [APA style](#apa-style)
+  - [BibTeX](#bibtex)
 ---
 
 ### Description
