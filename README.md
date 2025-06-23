@@ -155,8 +155,6 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("text", "1:110m small scale") // Text content
 ```
 
----
-
 #### Custom Legend Title and Position
 
 If you want to reposition the legend or change its title and tick formatting, you can adapt the following snippet. This example places the legend at coordinates `(650, 380)` and sets the title to `"Log of CountrySciProd"` with 6 ticks and a custom format:
