@@ -168,6 +168,7 @@ function capitalizeWords(text) {
   }
 }
 ```
+<p style="font-size: 0.1em;">🔝 <a href="#1-table-of-contents">Toc</a></p>
 
 #### Custom Styling for Text Labels
 
