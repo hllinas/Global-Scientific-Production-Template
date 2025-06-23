@@ -26,7 +26,8 @@
   - [Option 1: From the chart menu (top-right corner)](#option-1-from-the-chart-menu-top-right-corner)
   - [Option 2: From the button below the map](#option-2-from-the-button-below-the-map)
 - [7. Contributors](#7-contributors)
-- [8. Citation](#8-citation)
+- [8. License](#8-license)
+- [9. Citation](#9-citation)
   - [APA style](#apa-style)
   - [BibTeX](#bibtex)
 ---
@@ -326,7 +327,14 @@ If available, a `Save as SVG` button is shown directly beneath the map. Click it
   > ²  Department of Systems Engineering, Universidad del Norte, Barranquilla, Colombia.
 ---
 
-### 8. Citation
+### 8. License
+<p style="font-size: 0.1em;">🔝 <a href="#table-of-contents">Toc</a></p>
+
+This project is intended for educational and academic use. If you use or adapt any part of it, please make sure to cite it appropriately.
+
+---
+
+### 9. Citation
 <p style="font-size: 0.3em;">🔝 <a href="#table-of-contents">Toc</a></p>
 
 To cite this repository in your academic work, teaching, or research:
