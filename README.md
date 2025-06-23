@@ -127,6 +127,8 @@ Here’s an example of how to customize label appearance — including font, fil
 .attr("x", 50)                      // X position of the label
 .attr("y", 430)                     // Y position of the label
 .attr("font-family", "arial")       // Font family
+.attr("font-size", "15px")          // Text size
+ .attr("fill", "black")             // Text color
 .attr("text", "1:110m small scale") // Text content
 ```
 > These customizations are just suggestions. You are free to adapt, extend, or redesign them to better suit your project’s style and needs.
