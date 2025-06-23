@@ -4,6 +4,8 @@
 
 **Updated:** June 23, 2025
 ![Last Commit](https://img.shields.io/github/last-commit/hllinas/Stats-to-AI-Timeline?style=flat&color=blue)
+# Al final del Rmd
+cat(paste0("**Updated:** ", format(Sys.Date(), "%B %d, %Y")), file = "README.md", append = TRUE)
 
 ---
 #### Table of Contents
