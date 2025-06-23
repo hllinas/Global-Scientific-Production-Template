@@ -262,7 +262,7 @@ Feel free to experiment with these combinations and adjust the domain based on y
 
 ### Contributors
 
-- Dr. rer. nat. Humberto Llinás Solano (hllinas@uninorte.edu.co) [^1], 
+- Dr. rer. nat. [Humberto Llinás Solano][^1] (hllinas@uninorte.edu.co), 
 - Alexander Rangel Vizcaíno (alexanderrangel@uninorte.edu.co) [^1]
 - Daniela Nuñez Guzmán (nunezdm@uninorte.edu.co) [^1]
 - Humberto LLinás Marimón (lhumberto@uninorte.edu.co) [^2]
