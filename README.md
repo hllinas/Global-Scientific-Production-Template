@@ -177,7 +177,7 @@ svg.append("g")
   });
 ```
 
-### Labeling Only the Top n Countries on the Map
+#### Labeling Only the Top n Countries on the Map
 
 To annotate only the top `n` countries based on frequency, you can use the result of `getTopCountries(...)` to filter which countries will display labels. This ensures that your map remains clean and focused:
 
