@@ -349,7 +349,7 @@ To cite this repository in your academic work, teaching, or research:
 
 ```bibtex
 @misc{llinas2025timeline,
-  author       = {Humberto Llinás Solano, Alexánder Rangel Vizcaíno,
+  author       = {Humberto Llinás Solano, Alexander Rangel Vizcaíno,
                   Daniela Nuñez, Humberto Llinás Marimón},
   title        = {Global-Scientific-Production-Template},
   year         = {2025},
